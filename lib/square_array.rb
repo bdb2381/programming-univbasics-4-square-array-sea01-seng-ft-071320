@@ -5,10 +5,11 @@ new_array = []
 #puts array
 puts "........"
 while counter < array.size do
-  holding_var = array[counter]
-  new_array << holding_var**2
+  #holding_var = array[counter]
+  #new_array << holding_var**2
+  new_array << array[counter]**2
   counter += 1
-  puts holding_var
+  puts new_array
 end
 return new_array
 end
