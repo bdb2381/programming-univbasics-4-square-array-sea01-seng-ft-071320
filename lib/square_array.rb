@@ -1,9 +1,9 @@
 def square_array(array)
   # your code here
-#counter = 0
+#counter = 0   <--only need this var declared if using the while loop
 new_array = []
 
-=begin
+=begin    code below for one way to loop through
 while counter < array.size do
   new_array << array[counter]**2
   counter += 1
