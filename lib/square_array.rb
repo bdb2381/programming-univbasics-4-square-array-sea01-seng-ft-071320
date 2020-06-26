@@ -12,7 +12,7 @@ end
 
 array.size.times do |index|
   new_array << array[counter]**2
-
+end
 
 return new_array
 end
