@@ -6,7 +6,7 @@ new_array = []
 puts "........"
 while counter < array.size do
   holding_var = array[counter]
-  new_array << holding_var**
+  new_array << holding_var**2
   counter += 1
   puts holding_var
 end
