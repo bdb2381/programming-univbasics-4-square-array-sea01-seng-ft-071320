@@ -12,6 +12,6 @@ while counter < array.size do
   counter += 1
 end
   puts new_array
-  puts "........"
+  puts "end method........"
 return new_array
 end
