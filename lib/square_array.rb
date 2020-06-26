@@ -3,7 +3,8 @@ def square_array(array)
 counter = 0
 new_array = []
 puts array
-puts "........"
+puts "array above........"
+puts "new array below........"
 while counter < array.size do
   #holding_var = array[counter]
   #new_array << holding_var**2
