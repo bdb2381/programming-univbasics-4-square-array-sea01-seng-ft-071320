@@ -5,8 +5,8 @@ new_array = []
 puts array
 puts "........"
 while counter < array.size do
-  new_array << array[counter]**
-  puts array[counter]
+  new_array << array["counter"]**
+  puts array["counter"]
   counter+=1
   #puts new_array
 end
