@@ -10,7 +10,7 @@ while counter < array.size do
 end
 =end
 
-array.size.times do |index|
+array.size.times do |counter|
   new_array << array[counter]**2
 end
 
