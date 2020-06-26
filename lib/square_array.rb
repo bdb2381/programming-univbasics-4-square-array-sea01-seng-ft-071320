@@ -1,4 +1,10 @@
 def square_array(array)
   # your code here
-  puts array
+counter = 0
+
+while counter < array.size do
+  new_array << array[counter]**
+  counter+=1
+end
+
 end
